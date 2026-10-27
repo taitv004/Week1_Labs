@@ -1,0 +1,3007 @@
+[
+    {
+        "document": "db.json",
+        "mentioned_orders": [
+            {
+                "order_code": "ORD-2026-0001",
+                "status": "PAID",
+                "total": 8957740,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0002",
+                "status": "PAID",
+                "total": 8316000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0003",
+                "status": "PAID",
+                "total": 8866000,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0004",
+                "status": "PENDING_PAYMENT",
+                "total": 23391500,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0005",
+                "status": "FULFILLED",
+                "total": 2352295,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0006",
+                "status": "FULFILLED",
+                "total": 5268780,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0007",
+                "status": "FULFILLED",
+                "total": 32957100,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0008",
+                "status": "DRAFT",
+                "total": 32472000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0009",
+                "status": "FULFILLED",
+                "total": 8855000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0010",
+                "status": "PAID",
+                "total": 16573700,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0011",
+                "status": "FULFILLED",
+                "total": 1363725,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0012",
+                "status": "PAID",
+                "total": 12980000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0013",
+                "status": "FULFILLED",
+                "total": 23894640,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0014",
+                "status": "FULFILLED",
+                "total": 28941000,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0015",
+                "status": "CANCELLED",
+                "total": 3833500,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0016",
+                "status": "CANCELLED",
+                "total": 17666000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0017",
+                "status": "FULFILLED",
+                "total": 34458875,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0018",
+                "status": "FULFILLED",
+                "total": 1595880,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0019",
+                "status": "CANCELLED",
+                "total": 9692100,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0020",
+                "status": "PAID",
+                "total": 18595500,
+                "currency": "VND",
+                "customer": {
+                    "id": 20,
+                    "code": "CUS-020",
+                    "name": "Kite Hill Media",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@kite-hill-media.example.com",
+                    "contactPhone": "+84 900 000 020"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0021",
+                "status": "DRAFT",
+                "total": 1237500,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0022",
+                "status": "PAID",
+                "total": 4459950,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0023",
+                "status": "PENDING_PAYMENT",
+                "total": 1719025,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0024",
+                "status": "CANCELLED",
+                "total": 38837700,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0025",
+                "status": "PENDING_PAYMENT",
+                "total": 18601000,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0026",
+                "status": "PENDING_PAYMENT",
+                "total": 4889500,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0027",
+                "status": "FULFILLED",
+                "total": 25155900,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0028",
+                "status": "PAID",
+                "total": 12617550,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0029",
+                "status": "FULFILLED",
+                "total": 5676000,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0030",
+                "status": "PENDING_PAYMENT",
+                "total": 5698000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0031",
+                "status": "CANCELLED",
+                "total": 2090000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0032",
+                "status": "FULFILLED",
+                "total": 17028000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0033",
+                "status": "PAID",
+                "total": 4565880,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0034",
+                "status": "PAID",
+                "total": 4983000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0035",
+                "status": "PAID",
+                "total": 25284600,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0036",
+                "status": "PENDING_PAYMENT",
+                "total": 9018350,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0037",
+                "status": "CANCELLED",
+                "total": 3126200,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0038",
+                "status": "PAID",
+                "total": 1900800,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0039",
+                "status": "PAID",
+                "total": 11818400,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0040",
+                "status": "PAID",
+                "total": 7755000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0041",
+                "status": "FULFILLED",
+                "total": 31581000,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0042",
+                "status": "PAID",
+                "total": 17868400,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0043",
+                "status": "PAID",
+                "total": 2937000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0044",
+                "status": "FULFILLED",
+                "total": 6696800,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0045",
+                "status": "FULFILLED",
+                "total": 19166400,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0046",
+                "status": "DRAFT",
+                "total": 9682200,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0047",
+                "status": "PENDING_PAYMENT",
+                "total": 6881325,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0048",
+                "status": "PAID",
+                "total": 17443800,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0049",
+                "status": "PAID",
+                "total": 7095000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0050",
+                "status": "PAID",
+                "total": 12736350,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0051",
+                "status": "PENDING_PAYMENT",
+                "total": 2216500,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0052",
+                "status": "FULFILLED",
+                "total": 16624300,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0053",
+                "status": "FULFILLED",
+                "total": 10846000,
+                "currency": "VND",
+                "customer": {
+                    "id": 20,
+                    "code": "CUS-020",
+                    "name": "Kite Hill Media",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@kite-hill-media.example.com",
+                    "contactPhone": "+84 900 000 020"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0054",
+                "status": "FULFILLED",
+                "total": 43901000,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0055",
+                "status": "PAID",
+                "total": 12894750,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0056",
+                "status": "CANCELLED",
+                "total": 6182550,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0057",
+                "status": "PENDING_PAYMENT",
+                "total": 23012000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0058",
+                "status": "PENDING_PAYMENT",
+                "total": 1149500,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0059",
+                "status": "FULFILLED",
+                "total": 794200,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0060",
+                "status": "PENDING_PAYMENT",
+                "total": 17904700,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0061",
+                "status": "DRAFT",
+                "total": 61083000,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0062",
+                "status": "PAID",
+                "total": 17281000,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0063",
+                "status": "FULFILLED",
+                "total": 4242700,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0064",
+                "status": "FULFILLED",
+                "total": 12393700,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0065",
+                "status": "PAID",
+                "total": 20938500,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0066",
+                "status": "FULFILLED",
+                "total": 3146000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0067",
+                "status": "CANCELLED",
+                "total": 27676000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0068",
+                "status": "FULFILLED",
+                "total": 19848730,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0069",
+                "status": "DRAFT",
+                "total": 6514200,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0070",
+                "status": "CANCELLED",
+                "total": 20926125,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0071",
+                "status": "FULFILLED",
+                "total": 1716000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0072",
+                "status": "FULFILLED",
+                "total": 18139000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0073",
+                "status": "FULFILLED",
+                "total": 32780000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0074",
+                "status": "FULFILLED",
+                "total": 18948600,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0075",
+                "status": "PAID",
+                "total": 6897000,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0076",
+                "status": "FULFILLED",
+                "total": 1015740,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0077",
+                "status": "FULFILLED",
+                "total": 24853950,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0078",
+                "status": "FULFILLED",
+                "total": 2133890,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0079",
+                "status": "FULFILLED",
+                "total": 2453660,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0080",
+                "status": "PAID",
+                "total": 1694000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0081",
+                "status": "PENDING_PAYMENT",
+                "total": 7480000,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0082",
+                "status": "FULFILLED",
+                "total": 1184700,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0083",
+                "status": "CANCELLED",
+                "total": 15335100,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0084",
+                "status": "CANCELLED",
+                "total": 6811200,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0085",
+                "status": "PAID",
+                "total": 4846050,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0086",
+                "status": "PAID",
+                "total": 3608550,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0087",
+                "status": "PENDING_PAYMENT",
+                "total": 17655000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0088",
+                "status": "PAID",
+                "total": 6122600,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0089",
+                "status": "FULFILLED",
+                "total": 5543725,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0090",
+                "status": "FULFILLED",
+                "total": 16071000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0091",
+                "status": "FULFILLED",
+                "total": 54873500,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0092",
+                "status": "PENDING_PAYMENT",
+                "total": 2554200,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0093",
+                "status": "CANCELLED",
+                "total": 1379400,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0094",
+                "status": "CANCELLED",
+                "total": 20677415,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0095",
+                "status": "CANCELLED",
+                "total": 3734500,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0096",
+                "status": "FULFILLED",
+                "total": 2552000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0097",
+                "status": "FULFILLED",
+                "total": 43594265,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0098",
+                "status": "FULFILLED",
+                "total": 12870000,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0099",
+                "status": "PAID",
+                "total": 475200,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0100",
+                "status": "DRAFT",
+                "total": 1206700,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0101",
+                "status": "FULFILLED",
+                "total": 3093200,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0102",
+                "status": "CANCELLED",
+                "total": 1925000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0103",
+                "status": "FULFILLED",
+                "total": 41783500,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0104",
+                "status": "FULFILLED",
+                "total": 1815000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0105",
+                "status": "PAID",
+                "total": 9416000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0106",
+                "status": "PAID",
+                "total": 19146600,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0107",
+                "status": "PAID",
+                "total": 6424000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0108",
+                "status": "DRAFT",
+                "total": 4451700,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0109",
+                "status": "PAID",
+                "total": 29139825,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0110",
+                "status": "FULFILLED",
+                "total": 16017760,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0111",
+                "status": "PAID",
+                "total": 6798000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0112",
+                "status": "FULFILLED",
+                "total": 11506000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0113",
+                "status": "PAID",
+                "total": 9791650,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0114",
+                "status": "FULFILLED",
+                "total": 8223600,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0115",
+                "status": "PENDING_PAYMENT",
+                "total": 2361150,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0116",
+                "status": "PENDING_PAYMENT",
+                "total": 16218400,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0117",
+                "status": "PAID",
+                "total": 2365000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0118",
+                "status": "PENDING_PAYMENT",
+                "total": 3271400,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0119",
+                "status": "PENDING_PAYMENT",
+                "total": 10483000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0120",
+                "status": "FULFILLED",
+                "total": 9122850,
+                "currency": "VND",
+                "customer": {
+                    "id": 5,
+                    "code": "CUS-005",
+                    "name": "Golden Rice Distribution",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@golden-rice-distribution.example.com",
+                    "contactPhone": "+84 900 000 005"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0121",
+                "status": "PAID",
+                "total": 8662500,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0122",
+                "status": "PAID",
+                "total": 3740000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0123",
+                "status": "FULFILLED",
+                "total": 15103000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0124",
+                "status": "FULFILLED",
+                "total": 7122500,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0125",
+                "status": "PAID",
+                "total": 46618000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0126",
+                "status": "PAID",
+                "total": 577500,
+                "currency": "VND",
+                "customer": {
+                    "id": 20,
+                    "code": "CUS-020",
+                    "name": "Kite Hill Media",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@kite-hill-media.example.com",
+                    "contactPhone": "+84 900 000 020"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0127",
+                "status": "PAID",
+                "total": 11731500,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0128",
+                "status": "PAID",
+                "total": 24205500,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0129",
+                "status": "FULFILLED",
+                "total": 8316000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0130",
+                "status": "PAID",
+                "total": 79200,
+                "currency": "VND",
+                "customer": {
+                    "id": 20,
+                    "code": "CUS-020",
+                    "name": "Kite Hill Media",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@kite-hill-media.example.com",
+                    "contactPhone": "+84 900 000 020"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0131",
+                "status": "FULFILLED",
+                "total": 390830,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0132",
+                "status": "FULFILLED",
+                "total": 11679800,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0133",
+                "status": "PAID",
+                "total": 15278670,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0134",
+                "status": "CANCELLED",
+                "total": 7726950,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0135",
+                "status": "CANCELLED",
+                "total": 31333500,
+                "currency": "VND",
+                "customer": {
+                    "id": 20,
+                    "code": "CUS-020",
+                    "name": "Kite Hill Media",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@kite-hill-media.example.com",
+                    "contactPhone": "+84 900 000 020"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0136",
+                "status": "PENDING_PAYMENT",
+                "total": 5188425,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0137",
+                "status": "CANCELLED",
+                "total": 20317000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0138",
+                "status": "PAID",
+                "total": 10659000,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0139",
+                "status": "PAID",
+                "total": 25311000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0140",
+                "status": "PENDING_PAYMENT",
+                "total": 2310000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0141",
+                "status": "PAID",
+                "total": 6732000,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0142",
+                "status": "PAID",
+                "total": 1598850,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0143",
+                "status": "PENDING_PAYMENT",
+                "total": 3273600,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0144",
+                "status": "DRAFT",
+                "total": 694925,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0145",
+                "status": "FULFILLED",
+                "total": 2559150,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0146",
+                "status": "FULFILLED",
+                "total": 5516500,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0147",
+                "status": "FULFILLED",
+                "total": 4697000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0148",
+                "status": "FULFILLED",
+                "total": 16890500,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0149",
+                "status": "FULFILLED",
+                "total": 19712000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0150",
+                "status": "PAID",
+                "total": 26292200,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0151",
+                "status": "PAID",
+                "total": 13543200,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0152",
+                "status": "FULFILLED",
+                "total": 9652500,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0153",
+                "status": "FULFILLED",
+                "total": 23155000,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0154",
+                "status": "PAID",
+                "total": 5835280,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0155",
+                "status": "FULFILLED",
+                "total": 2006400,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0156",
+                "status": "FULFILLED",
+                "total": 3945920,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0157",
+                "status": "PENDING_PAYMENT",
+                "total": 5926140,
+                "currency": "VND",
+                "customer": {
+                    "id": 18,
+                    "code": "CUS-018",
+                    "name": "Maple Leaf Bakery Chain",
+                    "tier": "GOLD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@maple-leaf-bakery-chain.example.com",
+                    "contactPhone": "+84 900 000 018"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0158",
+                "status": "PENDING_PAYMENT",
+                "total": 7353500,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0159",
+                "status": "FULFILLED",
+                "total": 64847475,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0160",
+                "status": "FULFILLED",
+                "total": 52135050,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0161",
+                "status": "PAID",
+                "total": 62266325,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0162",
+                "status": "PENDING_PAYMENT",
+                "total": 9453070,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0163",
+                "status": "PENDING_PAYMENT",
+                "total": 2675200,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0164",
+                "status": "PAID",
+                "total": 18872700,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0165",
+                "status": "PENDING_PAYMENT",
+                "total": 4493500,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0166",
+                "status": "FULFILLED",
+                "total": 12745865,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0167",
+                "status": "PAID",
+                "total": 14221350,
+                "currency": "VND",
+                "customer": {
+                    "id": 17,
+                    "code": "CUS-017",
+                    "name": "Iron Bridge Engineering",
+                    "tier": "GOLD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@iron-bridge-engineering.example.com",
+                    "contactPhone": "+84 900 000 017"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0168",
+                "status": "PENDING_PAYMENT",
+                "total": 10230000,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0169",
+                "status": "PAID",
+                "total": 2048200,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0170",
+                "status": "PENDING_PAYMENT",
+                "total": 3682800,
+                "currency": "VND",
+                "customer": {
+                    "id": 9,
+                    "code": "CUS-009",
+                    "name": "Pearl Coast Pharmacy Group",
+                    "tier": "GOLD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@pearl-coast-pharmacy-group.example.com",
+                    "contactPhone": "+84 900 000 009"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0171",
+                "status": "PAID",
+                "total": 3448500,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0172",
+                "status": "FULFILLED",
+                "total": 9713000,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0173",
+                "status": "PENDING_PAYMENT",
+                "total": 3356100,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0174",
+                "status": "FULFILLED",
+                "total": 18821000,
+                "currency": "VND",
+                "customer": {
+                    "id": 10,
+                    "code": "CUS-010",
+                    "name": "Horizon Print & Pack",
+                    "tier": "STANDARD",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@horizon-print-and-pack.example.com",
+                    "contactPhone": "+84 900 000 010"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0175",
+                "status": "FULFILLED",
+                "total": 1782000,
+                "currency": "VND",
+                "customer": {
+                    "id": 16,
+                    "code": "CUS-016",
+                    "name": "Seaside Hotel Partners",
+                    "tier": "GOLD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@seaside-hotel-partners.example.com",
+                    "contactPhone": "+84 900 000 016"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0176",
+                "status": "PAID",
+                "total": 4545750,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0177",
+                "status": "CANCELLED",
+                "total": 4279000,
+                "currency": "VND",
+                "customer": {
+                    "id": 1,
+                    "code": "CUS-001",
+                    "name": "Lotus Bay Trading Co.",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lotus-bay-trading-co.example.com",
+                    "contactPhone": "+84 900 000 001"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0178",
+                "status": "CANCELLED",
+                "total": 8070535,
+                "currency": "VND",
+                "customer": {
+                    "id": 12,
+                    "code": "CUS-012",
+                    "name": "Summit Furniture Works",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@summit-furniture-works.example.com",
+                    "contactPhone": "+84 900 000 012"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0179",
+                "status": "PENDING_PAYMENT",
+                "total": 16247000,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0180",
+                "status": "FULFILLED",
+                "total": 23601600,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0181",
+                "status": "FULFILLED",
+                "total": 2750000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0182",
+                "status": "FULFILLED",
+                "total": 5204100,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0183",
+                "status": "FULFILLED",
+                "total": 3912480,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0184",
+                "status": "FULFILLED",
+                "total": 3663000,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0185",
+                "status": "FULFILLED",
+                "total": 20592000,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0186",
+                "status": "PAID",
+                "total": 10809480,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0187",
+                "status": "FULFILLED",
+                "total": 395010,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0188",
+                "status": "PENDING_PAYMENT",
+                "total": 17303000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0189",
+                "status": "CANCELLED",
+                "total": 27467000,
+                "currency": "VND",
+                "customer": {
+                    "id": 13,
+                    "code": "CUS-013",
+                    "name": "Riverside Clinic Network",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@riverside-clinic-network.example.com",
+                    "contactPhone": "+84 900 000 013"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0190",
+                "status": "FULFILLED",
+                "total": 23529000,
+                "currency": "VND",
+                "customer": {
+                    "id": 3,
+                    "code": "CUS-003",
+                    "name": "Silver Crane Logistics",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@silver-crane-logistics.example.com",
+                    "contactPhone": "+84 900 000 003"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0191",
+                "status": "PAID",
+                "total": 12837000,
+                "currency": "VND",
+                "customer": {
+                    "id": 4,
+                    "code": "CUS-004",
+                    "name": "Green Bamboo Retail",
+                    "tier": "STANDARD",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@green-bamboo-retail.example.com",
+                    "contactPhone": "+84 900 000 004"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0192",
+                "status": "PENDING_PAYMENT",
+                "total": 31884600,
+                "currency": "VND",
+                "customer": {
+                    "id": 2,
+                    "code": "CUS-002",
+                    "name": "Red River Office Supplies",
+                    "tier": "STANDARD",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@red-river-office-supplies.example.com",
+                    "contactPhone": "+84 900 000 002"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0193",
+                "status": "FULFILLED",
+                "total": 397100,
+                "currency": "VND",
+                "customer": {
+                    "id": 15,
+                    "code": "CUS-015",
+                    "name": "Cloud Nine Coworking",
+                    "tier": "SILVER",
+                    "city": "Cần Thơ",
+                    "contactEmail": "orders@cloud-nine-coworking.example.com",
+                    "contactPhone": "+84 900 000 015"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0194",
+                "status": "PAID",
+                "total": 12546270,
+                "currency": "VND",
+                "customer": {
+                    "id": 19,
+                    "code": "CUS-019",
+                    "name": "Starfruit Wholesale",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@starfruit-wholesale.example.com",
+                    "contactPhone": "+84 900 000 019"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0195",
+                "status": "CANCELLED",
+                "total": 10722800,
+                "currency": "VND",
+                "customer": {
+                    "id": 11,
+                    "code": "CUS-011",
+                    "name": "Lantern Street Cafes",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@lantern-street-cafes.example.com",
+                    "contactPhone": "+84 900 000 011"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0196",
+                "status": "DRAFT",
+                "total": 5475800,
+                "currency": "VND",
+                "customer": {
+                    "id": 7,
+                    "code": "CUS-007",
+                    "name": "Sunrise Stationery Hub",
+                    "tier": "SILVER",
+                    "city": "TP. Hồ Chí Minh",
+                    "contactEmail": "orders@sunrise-stationery-hub.example.com",
+                    "contactPhone": "+84 900 000 007"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0197",
+                "status": "PAID",
+                "total": 8879200,
+                "currency": "VND",
+                "customer": {
+                    "id": 8,
+                    "code": "CUS-008",
+                    "name": "Jade Mountain Hospitality",
+                    "tier": "STANDARD",
+                    "city": "Đà Nẵng",
+                    "contactEmail": "orders@jade-mountain-hospitality.example.com",
+                    "contactPhone": "+84 900 000 008"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0198",
+                "status": "FULFILLED",
+                "total": 28789750,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0199",
+                "status": "FULFILLED",
+                "total": 15680500,
+                "currency": "VND",
+                "customer": {
+                    "id": 6,
+                    "code": "CUS-006",
+                    "name": "Blue Harbor Electronics",
+                    "tier": "STANDARD",
+                    "city": "Hà Nội",
+                    "contactEmail": "orders@blue-harbor-electronics.example.com",
+                    "contactPhone": "+84 900 000 006"
+                }
+            },
+            {
+                "order_code": "ORD-2026-0200",
+                "status": "FULFILLED",
+                "total": 1097250,
+                "currency": "VND",
+                "customer": {
+                    "id": 14,
+                    "code": "CUS-014",
+                    "name": "Evergreen Schools Supply",
+                    "tier": "SILVER",
+                    "city": "Hải Phòng",
+                    "contactEmail": "orders@evergreen-schools-supply.example.com",
+                    "contactPhone": "+84 900 000 014"
+                }
+            }
+        ]
+    }
+]
