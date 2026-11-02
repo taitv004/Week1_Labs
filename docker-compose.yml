@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    container_name: week1_lab4_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Đồng bộ mã nguồn code local vào container
+      - .:/app
+      # Mount thư mục chứa file mẫu data_lab3 từ cấp cha vào container để pytest đọc được
+      - ../data_lab3:/data_lab3
+    environment:
+      - PYTHONUNBUFFERED=1

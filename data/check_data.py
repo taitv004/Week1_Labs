@@ -6,5 +6,5 @@ with open("/Users/tavantai/Developer/Week1_Labs/data/db.json", "r", encoding="ut
 for i in data:
     print(i)
 print("=====================================")
-for i in data["orders"][0]:
+for i in data["shipments"][0]:
       print(i)

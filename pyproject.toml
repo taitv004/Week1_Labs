@@ -8,8 +8,15 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "fastapi[standard]>=0.162.0",
+    "google-generativeai>=0.8.6",
     "httpx>=0.28.1",
+    "numpy>=2.5.4",
     "pydantic>=2.14.1",
+    "pypdf>=6.21.2",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
 ]
 
 [project.scripts]
@@ -22,5 +29,6 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "mypy>=2.4.0",
+    "pytest>=9.2.0",
     "ruff>=0.17.2",
 ]
